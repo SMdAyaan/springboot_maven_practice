@@ -1,0 +1,22 @@
+Scanner sc = new Scanner(System.in) is used to read the user input
+It can be invoked by typing "sysout"
+
+nextBoolean() - Used for reading Boolean value                    
+nextByte() - Used for reading Byte value
+nextDouble() - Used for reading Double value
+nextFloat() - Used for reading Float value
+nextInt() - Used for reading Int value
+nextLine() - Used for reading Line value
+nextLong() - Used for reading Long value
+nextShort() - Used for reading Short value
+
+print() - Prints the output without moving the cursor to the next line.
+println() - Prints the output and then moves the cursor to the next line.
+printf() - Prints formatted output using format specifiers.
+
+Final - Keyword used for a variable which has to remain constant throughout the execution
+
+IntStream is a specialized stream in Java for handling sequences of primitive int values, supporting both sequential and parallel operations.
+IntStream.range(1, 5); // 1, 2, 3, 4 (end exclusive)
+IntStream rangeClosed = IntStream.rangeClosed(1, 5); // 1, 2, 3, 4, 5 (end inclusive)
+
