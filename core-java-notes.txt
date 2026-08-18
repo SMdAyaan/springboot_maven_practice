@@ -20,3 +20,22 @@ IntStream is a specialized stream in Java for handling sequences of primitive in
 IntStream.range(1, 5); // 1, 2, 3, 4 (end exclusive)
 IntStream rangeClosed = IntStream.rangeClosed(1, 5); // 1, 2, 3, 4, 5 (end inclusive)
 
+ABSTRACT CLASS:
+An Abstract class can have both abstract and concrete methods.
+An abstract class can be referenced to an object but it can't be instantiated to an object.
+
+INNER CLASS:
+An inner class is a class inside another class
+These classes provide a better sense of encapsulation
+We cannot instantiate an interface
+
+FUNCTIONAL INTERFACES
+A functional interface in Java is an interface with exactly one abstract method, designed to be implemented using lambda expressions or method references.
+
+LAMBDA EXPRESSION
+A lambda expression in Java is an anonymous function that provides a concise way to implement a functional interface, introduced in Java 8 to enable functional-style programming.
+
+THREADS
+The moment you extend a normal class with Thread, then that class becomes a Thread
+In every thread, you need to have a run() method
+The range of each priority goes from 1(least) to 10(highest)
