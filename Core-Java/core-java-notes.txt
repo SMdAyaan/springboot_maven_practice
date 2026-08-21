@@ -39,3 +39,5 @@ THREADS
 The moment you extend a normal class with Thread, then that class becomes a Thread
 In every thread, you need to have a run() method
 The range of each priority goes from 1(least) to 10(highest)
+
+Streams cannot go back to the previous state.
