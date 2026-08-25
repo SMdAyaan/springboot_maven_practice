@@ -20,6 +20,8 @@ IntStream is a specialized stream in Java for handling sequences of primitive in
 IntStream.range(1, 5); // 1, 2, 3, 4 (end exclusive)
 IntStream rangeClosed = IntStream.rangeClosed(1, 5); // 1, 2, 3, 4, 5 (end inclusive)
 
+-----------------------------------------------------------
+
 ABSTRACT CLASS:
 An Abstract class can have both abstract and concrete methods.
 An abstract class can be referenced to an object but it can't be instantiated to an object.
@@ -41,3 +43,60 @@ In every thread, you need to have a run() method
 The range of each priority goes from 1(least) to 10(highest)
 
 Streams cannot go back to the previous state.
+
+------------------------------------------------------------------
+
+COLLECTIONS:
+The Java Collections Framework is a set of classes and interfaces that provide standardized ways to store, manipulate, search, sort, and retrieve groups of objects.
+
+Iterable
+   |
+Collection
+   |
+   +---- List
+   |       |
+   |       +--- ArrayList
+   |       +--- LinkedList
+   |       +--- Vector
+   |             |
+   |             +--- Stack
+   |
+   +---- Set
+   |       |
+   |       +--- HashSet
+   |       +--- LinkedHashSet
+   |       +--- TreeSet
+   |
+   +---- Queue
+           |
+           +--- PriorityQueue
+           +--- ArrayDeque
+
+Map (separate hierarchy)
+   |
+   +--- HashMap
+   +--- LinkedHashMap
+   +--- TreeMap
+   +--- Hashtable
+   +--- ConcurrentHashMap
+
+Collection vs Collections:
+Collection - An interface (Collection<String> col = new ArrayList<>();)
+Collections - A utility class containing several helper methods like sort(),distinct()
+
+LIST:
+Maintains insertion order
+Allows duplicates
+Provides index-based access
+
+ArrayList - Used for dynamic Array, Most commonly used.
+LinkedList - implemented using a doubly Linked List
+Stack - LIFO
+
+SET:
+No duplicates
+No index
+HashSet- Internally uses Hashmap
+
+MAP:
+Stores Key -> Value
